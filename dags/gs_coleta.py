@@ -92,7 +92,7 @@ def coletar_sp156(**context):
 
 def coletar_chuva(**context):
     ds = context["ds"]
-    janela = int(Variable.get("GS_CHUVA_JANELA_DIAS", default="150"))
+    janela = int(Variable.get("GS_CHUVA_JANELA_DIAS", default="230"))
     url = Variable.get("GS_OPENMETEO_ARCHIVE_URL", default="https://archive-api.open-meteo.com/v1/archive")
     fim = date.fromisoformat(ds) - timedelta(days=2)  # o arquivo histórico tem ~2 dias de atraso
     ini = fim - timedelta(days=janela - 1)
