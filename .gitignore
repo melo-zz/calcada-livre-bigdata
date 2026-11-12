@@ -1,0 +1,11 @@
+.env
+*.env
+chegada/
+logs/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+terraform.tfstate*
+*.tfvars
+.pytest_cache/
