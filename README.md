@@ -20,7 +20,7 @@ Mapa vivo de barreiras de acessibilidade nas calçadas de São Paulo, alimentado
 | **Arquitetura: componentes** | Carrinho inspetor (Maker Lab) · Foto do cidadão + detecção (Visão) · Assistente de dúvidas (GenAI) · Triagem automática (RPA) · Pipeline de dados (Big Data) · Mapa e painel (MVP) · Produção (DevOps) · Pitch (BI) |
 | **Fontes de dados** | SP156 (pedidos de calçada, dados abertos da Prefeitura) · Open-Meteo (chuva) · IBGE (distritos) · ocorrências do próprio MVP (app, carrinho, visão) · leis federais de acessibilidade (planalto.gov.br) |
 | **Modelos de IA utilizados** | Qwen2.5-1.5B-Instruct + LoRA com RAG (assistente) · multilingual-e5-small (busca) · YOLO nano (visão) · árvore de decisão embarcada (carrinho) |
-| **URL do MVP e repositório** | URL: COLE_AQUI · Repositório: https://github.com/SEU_USUARIO/SEU_REPOSITORIO |
+| **URL do MVP e repositório** | URL: COLE_AQUI · Repositório: https://github.com/melo-zz/calcada-livre-bigdata |
 | **Indicadores de impacto** | Barreiras mapeadas · % resolvidas em até 30 dias · dias até a resolução · km de rota acessível |
 | **ODS conectados** | **ODS 11** (cidades inclusivas e acessíveis, metas 11.2 e 11.7) · **ODS 10** (redução das desigualdades) · **ODS 3** (saúde e bem-estar: menos quedas de idosos) |
 
