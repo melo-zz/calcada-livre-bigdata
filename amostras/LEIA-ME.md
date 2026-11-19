@@ -1,4 +1,6 @@
 # Amostras
-- `ocorrencias_amostra.json`: 5 linhas da fonte simulada (dados pessoais FICTÍCIOS: nomes genéricos, e-mail em `exemplo.com.br`, telefone de faixa fictícia).
-- Depois que o Airflow rodar, copie para cá 2 ou 3 linhas de cada arquivo de `chegada/`: `sp156_AAAA-MM-DD.json`, `chuva_AAAA-MM-DD.json` e `ibge_AAAA-MM-DD.json` (`head -n 3 arquivo > amostras/arquivo`).
-- Confira que as linhas do SP156 não têm dados pessoais reais antes de commitar (o portal já os remove, mas confira).
+Um pouco de cada fonte, no mesmo formato dos arquivos que o DAG grava em `chegada/`:
+- `sp156_2026-11-08.json`: 3 linhas de pedidos de calçada do portal de dados abertos da Prefeitura (fonte **real**). Removemos `numero` e `cep` da amostra por cautela; a base do SP156 não tem nome nem contato de quem pediu.
+- `chuva_2026-11-08.json`: 2 regiões da API Open-Meteo (fonte **real**), com a chuva diária.
+- `ibge_2026-11-08.json`: 3 distritos da API de localidades do IBGE (fonte **real**).
+- `ocorrencias_amostra.json`: 5 linhas da fonte simulada (ocorrências do MVP). Dados pessoais **fictícios**: nomes genéricos, e-mail em `exemplo.com.br`, telefone de faixa fictícia.
